@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+backend/.env.production
+
+# Next.js
+.next/
+out/
+build/
+dist/
+.cache/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+.fleet/
+.history/
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+
+# Production
+.vercel
+.railway
+.render
+
+# Database
+*.sql.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.temp/
+
+# Secrets & Keys
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+
+# Uploads (if any)
+uploads/
+public/uploads/
+
+# System files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
